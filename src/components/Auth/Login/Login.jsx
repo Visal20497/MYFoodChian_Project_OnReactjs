@@ -36,7 +36,7 @@ let Login = ({ setAuth, setLoggedIn }) => {
                 Continue with Google
             </div>
             <hr className={loginCss.break} />
-            <div className={loginCss.newToZomato}>New to Zomato? <div className={loginCss.createAcc} onClick={() => setAuth({ closed: false, login: false, signup: true })}>Create Account</div></div>
+            <div className={loginCss.newToZomato}>New to MyApp? <div className={loginCss.createAcc} onClick={() => setAuth({ closed: false, login: false, signup: true })}>Create Account</div></div>
         </div>
     </div> :  <EnterOTP setModal={setOTPModal} setLoggedIn={setLoggedIn} setAuth={setAuth} />
     return createPortal(loginDiv, document.getElementById('modal'));
