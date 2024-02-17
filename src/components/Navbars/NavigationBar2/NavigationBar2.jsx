@@ -23,7 +23,7 @@ let NavigationBar = ({ toogleMenu, setToggleMenu }) => {
         <img className={css.menuBar} src={menuBar} alt='menu bar' onClick={() => setToggleMenu(val => !val)} />
         <div className={css.navbarInner}>
             <div className={css.leftSide}>
-                <Link to='/' className={css.appTxt}>Tomato</Link>
+                <Link to='/' className={css.appTxt}>MyFoodChain</Link>
             </div>
             <div className={css.searchBar}>
                 <SearchBar />
