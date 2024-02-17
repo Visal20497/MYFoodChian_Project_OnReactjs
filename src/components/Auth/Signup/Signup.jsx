@@ -21,7 +21,7 @@ let Signup = ({ setAuth }) => {
                 <span className={signupCss.termsTxt}>
                     <input type="checkbox" name="accpect" id="accpect" className={signupCss.checkBox} />
                     <span>
-                        I agree to Zomato's <a href="" className={signupCss.termaAnchor}>Terms of Service, Privacy Policy</a> and <a href="" className={signupCss.termaAnchor}>Content Policies</a>
+                        I agree to myfoodchain's <a href="" className={signupCss.termaAnchor}>Terms of Service, Privacy Policy</a> and <a href="" className={signupCss.termaAnchor}>Content Policies</a>
                     </span>
                 </span>
                 <button className={signupCss.btn}>Create Account</button>
