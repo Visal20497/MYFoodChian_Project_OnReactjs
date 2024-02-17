@@ -98,7 +98,7 @@ const EditProfileModal = ({setModal}) => {
                     return <Form className={css.form}>
                         <TextUtil name="fullName" placeholder="Enter name"/>
                         <TextUtil name="phone" placeholder="Enter phone number" disabled/>
-                        <span className={css.formTxt}>You can update your phone number using the Zomato app</span>
+                        <span className={css.formTxt}>You can update your phone number using the MyfoodChain app</span>
                         <TextUtilWithCancel txt="Change" name="email" placeholder="sample@sample.com" formik="" changeHandler={mailCahngeHandler} disabled/>
                         <TextUtil name="address" placeholder="Enter address"/>
                         <TextUtil name="description" placeholder="Description"/>
