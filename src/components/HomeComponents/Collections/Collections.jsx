@@ -13,7 +13,7 @@ let Collections = () => {
         <div className={css.title}>Collections</div>
         <div className={css.tagLine}>
             <span className={css.desc}>Explore curated lists of top restaurants, cafes, pubs, and bars in Hyderabad, based on trends</span>
-            <span className={css.collectionPlacesTag}>All collections in Hyderabad <span className={css.rightArrowBox}><img className={css.rightArrow} src={rightArrow} alt="right arrow" /></span></span>
+            <span className={css.collectionPlacesTag}>All collections in Bangalore <span className={css.rightArrowBox}><img className={css.rightArrow} src={rightArrow} alt="right arrow" /></span></span>
         </div>
         <div className={css.cards}>
             <CollectionsCard imgSrc={CathTheMatachImg} title="Catch the Match" places="30" />
