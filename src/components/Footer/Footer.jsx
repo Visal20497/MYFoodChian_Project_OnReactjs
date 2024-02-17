@@ -34,7 +34,7 @@ let Footer = () => {
                     <a href="" className={footerCss.boxOpt}>Report Fraud</a>
                 </div>
                 <div className={[footerCss.box2, footerCss.box].join(' ')}>
-                    <div className={footerCss.boxTtl}>TOMAVERSE</div>
+                    <div className={footerCss.boxTtl}>Myreserve</div>
                     <a href="" className={footerCss.boxOpt}>MyFoodChain</a>
                     <a href="" className={footerCss.boxOpt}>Feeding India</a>
                     <a href="" className={footerCss.boxOpt}>Hyperpure</a>
