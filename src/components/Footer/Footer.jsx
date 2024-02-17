@@ -14,7 +14,7 @@ let Footer = () => {
     return <div className={footerCss.footer}>
         <div className={footerCss.innerFooter}>
             <div className={footerCss.sec1}>
-                <div className={footerCss.logoBox}>Tomato</div>
+                <div className={footerCss.logoBox}>MyFoodChain</div>
                 <div className={footerCss.filters}>
                     <div className={footerCss.filterBox}> <span>
                         <img className={footerCss.icon} src={indianFlag} alt="india flag" />
@@ -26,7 +26,7 @@ let Footer = () => {
             </div>
             <div className={footerCss.sec2}>
                 <div className={[footerCss.box1, footerCss.box].join(' ')}>
-                    <div className={footerCss.boxTtl}>ABOUT TOMATO</div>
+                    <div className={footerCss.boxTtl}>ABOUT MyFoodChain</div>
                     <a href="" className={footerCss.boxOpt}>Who We Are</a>
                     <a href="" className={footerCss.boxOpt}>Blog</a>
                     <a href="" className={footerCss.boxOpt}>Work With Us</a>
@@ -35,10 +35,10 @@ let Footer = () => {
                 </div>
                 <div className={[footerCss.box2, footerCss.box].join(' ')}>
                     <div className={footerCss.boxTtl}>TOMAVERSE</div>
-                    <a href="" className={footerCss.boxOpt}>Tomato</a>
+                    <a href="" className={footerCss.boxOpt}>MyFoodChain</a>
                     <a href="" className={footerCss.boxOpt}>Feeding India</a>
                     <a href="" className={footerCss.boxOpt}>Hyperpure</a>
-                    <a href="" className={footerCss.boxOpt}>Tomaland</a>
+                    <a href="" className={footerCss.boxOpt}>MYFOOD World</a>
                 </div>
                 <div className={[footerCss.box3, footerCss.box].join(' ')}>
                     <div className={footerCss.boxTtl}>FOR RESTAURANTS</div>
@@ -46,7 +46,7 @@ let Footer = () => {
                     <a href="" className={footerCss.boxOpt}>Apps For You</a>
 
                     <div className={footerCss.boxTtl}>FOR ENTERPRISES</div>
-                    <a href="" className={footerCss.boxOpt}>Tomato For Work</a>
+                    <a href="" className={footerCss.boxOpt}>For Work</a>
                 </div>
                 <div className={[footerCss.box4, footerCss.box].join(' ')}>
                     <div className={footerCss.boxTtl}>LEARN MORE</div>
