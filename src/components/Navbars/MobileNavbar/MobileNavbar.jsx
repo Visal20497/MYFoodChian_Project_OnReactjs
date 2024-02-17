@@ -20,7 +20,7 @@ let MobileNavbar = ({ toogleMenu, setToggleMenu }) => {
     <div className={css.mobileMenu}>
         <div className={css.menu}>
             <img className={css.menuBar} src={close} alt='menu bar' onClick={() => setToggleMenu(val => !val)} />
-            <Link className={css.title} to='/'>Tomato</Link>
+            <Link className={css.title} to='/'>MyFoodChain</Link>
         </div>
         <div className={css.navbar}>
             <Link to='/add-restaurant' className={css.menuItem} >Add restuarant</Link>
